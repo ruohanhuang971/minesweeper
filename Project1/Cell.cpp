@@ -1,7 +1,7 @@
 #include <vector>
 #include "Cell.h"
 
-Cell::Cell(bool i_is_mine) {
+Cell::Cell(bool i_is_mine):is_mine(i_is_mine) {
 }
 
 void Cell::set_is_mine(bool i_is_mine) {

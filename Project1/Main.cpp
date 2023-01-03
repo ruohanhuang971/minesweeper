@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "Global.h"
+#include "Cell.h"
 #include "Field.h"
 
 int main() {

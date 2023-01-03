@@ -1,4 +1,7 @@
 #pragma once
+#include "Cell.h" 
+#include <vector>
+
 class Field {
 public:
 	Field();
