@@ -9,12 +9,16 @@ int main() {
 
 	sf::Event event;
 
+	Field field;
+
 	while (window.isOpen()) {
 		while (window.pollEvent(event)) {
 			if (event.type == sf::Event::Closed) {
 				window.close();
 			}
 		}
+		field.draw(window);
+		window.display();
 	}
 
 	return 0;
