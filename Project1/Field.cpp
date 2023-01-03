@@ -13,7 +13,7 @@ void Field::draw(sf::RenderWindow& i_window) {
 
 	for (unsigned char a = 0; a < COLUMNS; a++) {
 		for (unsigned char b = 0; b < ROWS; b++) {
-			cell_shape.setPosition(CELL_SIZE * a, CELL_SIZE & b);
+			cell_shape.setPosition(CELL_SIZE * a, CELL_SIZE * b);
 			i_window.draw(cell_shape);
 		}
 	}
